@@ -1,0 +1,1678 @@
+
+
+/* All Common CSS Start */
+
+
+ * {
+  margin: 0;
+  padding: 0;
+ }
+
+
+  ul,
+  ol {
+  list-style-type: none;
+ }
+
+  a {
+  text-decoration: none;
+  display: inline-block;
+  }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+ }
+
+
+  .container {
+  width: 1320px;
+  margin: 0 auto;
+  }
+
+
+
+/* All Common CSS End*/
+
+
+
+
+/* First Header Part Start */
+
+
+   #FirstPart {
+   padding: 30px 0px;
+   background: #3E3E3E;
+   }
+
+
+   .FirstOne {
+   display: flex;
+   justify-content: space-between;
+   }
+
+
+
+   .FirstLeft {
+   display: flex;
+   gap: 30px;
+   }
+
+
+
+   .FirstLeft m {
+   color: #fff;
+   font-size: 12px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+   vertical-align: middle;
+   } 
+
+
+
+   .FirstLeft a {
+   color: #fff;
+   font-size: 12px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+   vertical-align: middle;
+   }
+
+
+
+   .FirstLeft a:hover {
+   color: darkcyan;
+   }
+
+
+
+   .FirstLeft a:hover i {
+   color: #fff;
+   }
+
+
+
+
+   .FirstLeft i {
+   margin-right: 12px;
+   font-size: 15px;
+   display: inline-block;
+   }
+
+
+
+   .FirstRight a {
+   color: #fff;
+   margin: 0 15px;
+   margin-left: 20px;
+   transition: .5s;
+   }
+
+
+
+   .FirstRight a:hover {
+    color: salmon;
+   }
+
+
+
+/* First Header Part End */
+
+
+
+
+
+/* Second Header Part Start */
+
+
+ #SecondPart {
+  background: #ffff;
+ }
+
+
+
+ .SecondOne {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+ } 
+
+
+
+ .SecondLogo {
+  padding: 13px 0px;
+ }
+
+
+
+ .SecondMenu ul li {
+  display: inline-block;
+ }
+
+
+
+ .SecondMenu ul li a {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #686868;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 0px 40px;
+  line-height: 90px;
+  transition: .5s;
+ }
+
+
+
+ .SecondMenu ul li a:hover {
+  color: peachpuff;
+ }
+
+
+
+
+ .SecondIcon {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  color: #555555;
+  padding: 30px 0px;
+  transition: .6s;
+  }
+
+
+
+ .SecondIcon l :hover {
+  color: plum;
+ }
+
+
+
+
+/* Second Header Part End */
+
+
+
+
+
+
+/* Third Header Part Start */
+
+
+
+ #ThirdPart {
+
+  background: url(../images/child.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+
+
+ .ThirdOverly {
+  background: rgba(0, 0, 0, 0.6);
+  padding-top: 350px;
+  padding-bottom: 395px;
+ }
+
+
+
+
+ .ThirdOne {
+  text-align: center;
+  color: white;
+  }
+
+
+
+
+ .ThirdOne h6 {
+  font-size: 35px;
+  font-weight: 750;
+  font-family: "Roboto Slab", serif;
+  }
+
+
+
+
+ .ThirdOne span {
+  color: #f8b864;
+ }
+
+
+
+ .ThirdOne h3 {
+  font-size: 60px;
+  font-weight: 750;
+  font-family: "Roboto Slab", serif;
+  padding-top: 34px;
+  padding-bottom: 37px;
+ }
+
+
+
+ .ThirdOne p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  padding: 0px 350px;
+  line-height: 30px;
+  margin-bottom: 45px;
+ }
+
+
+
+ .ThirdOne a {
+  font-size: 16px;
+  background: #f8b864;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px 35px;
+  border-radius: 50px;
+  transition: .4s;
+  color: white;
+
+ } 
+
+
+
+
+ .ThirdOne a:hover {
+  color: #686868;
+  background: #fff;
+ }
+
+
+
+/* Third Header Part End */
+
+
+
+
+
+
+/* Fourth Header Part Start */
+
+
+ #FourthPart {
+  height: 770px;
+ }
+
+
+
+ .FourthOneCard {
+  position: relative;
+ }
+
+
+
+ .OneCard {
+  padding-top: 140px;
+  padding-bottom: 130px;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  background: #fff;
+ }
+
+
+
+ .OneText {
+  text-align: center;
+  font-size: 30px;
+  color: #555555;
+ }
+
+
+
+
+ .OneText{
+ font-weight: 700;
+ font-family:"Roboto Slab", serif ;
+ }
+  
+
+
+ .OneImages {
+  position: relative;
+  display: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  padding-left: 654px;
+ }
+
+
+
+
+ .OneImages::before {
+  position: absolute;
+  width: 165px;
+  height: 2px;
+  top: 10px;
+  left: 450px;
+  content: "";
+  background: #DDDDDD;
+ }
+
+
+
+
+ .OneImages::after {
+  position: absolute;
+  width: 165px;
+  height: 2px;
+  top: 10px;
+  right: 455px;
+  content: "";
+  background: #DDDDDD;
+ }
+
+
+
+
+ .OneLine {
+  text-align: center;
+  font-size: 30px;
+  color: #555555;
+  font-weight: normal;
+ }
+
+
+
+
+ .FourthTwoItem {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
+  justify-content: space-between;
+ }
+
+
+
+
+ .TwoItem {
+  width: 30%;
+  text-align: center;
+ }
+
+
+
+
+ .TwoItem i {
+  font-size: 50px;
+  color: #777777;
+ }   
+
+
+
+
+ .TwoItem h3 {
+  font-family: "Roboto Slab", serif;
+  color: #555555;
+  font-weight: 400;
+  padding-top: 34px;
+  padding-bottom: 31px;
+  font-size: 23px;
+ }
+
+
+
+
+
+ .TwoItem p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  line-height: 24px;
+  margin-left: 10px;
+  color: #686868;
+  font-weight: 400;
+ }
+
+
+
+
+
+ .TwoItem h2 {
+  font-family: "Roboto Slab", serif;
+  color: #555555;
+  font-weight: 400;
+  padding-top: 34px;
+  padding-bottom: 31px;
+ }
+
+
+
+ .TwoItem p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  line-height: 24px;
+  margin-left: 10px;
+  color: #686868;
+  font-weight: 400;
+ }
+
+
+
+
+
+ .TwoItem h1 {
+  font-family: "Roboto Slab", serif;
+  color: #555555;
+  font-weight: 400;
+  padding-top: 34px;
+  padding-bottom: 31px;
+  }
+
+
+
+
+ .TwoItem p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  line-height: 24px;
+  margin-left: 10px;
+  color: #686868;
+  font-weight: 400;
+ }
+
+
+
+
+/* Fourth Header Part End */
+
+
+
+
+
+/* Fifth Header Part Start */
+
+
+
+ #FifthPart {
+  height: 230px;
+ }
+
+
+
+
+ .FifthPartOne {
+  position: relative;
+ }
+
+
+
+
+ .TextPart {
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  color: #555555;
+  width: 100%;
+  
+ }
+
+   
+  .TextPart h2{
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  }
+
+
+
+
+ .TextImages {
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+  margin-top: 20px;
+ }
+
+
+
+
+  .TextImages::before {
+  position: absolute;
+  width: 165px;
+  height: 2px;
+  top: 10px;
+  left: 430px;
+  content: "";
+  background: #DDDDDD;
+  }
+
+
+
+
+  .TextImages::after {
+  position: absolute;
+  width: 165px;
+  height: 2px;
+  top: 10px;
+  right: 430px;
+  content: "";
+  background: #DDDDDD;
+  }
+
+
+
+
+/* Fifth Header Part End */
+
+
+
+
+
+
+
+/* Sixth Header Part Start */
+
+ #SixthPart {
+  padding: 20px 0px;
+  background: #fff;
+ }
+
+
+
+ .SixthItemOne {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 25px;
+ }
+
+
+
+ .ItemOnePart {
+  width: 30%;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.7);
+ }
+
+
+
+ .ItemImgPart img {
+  width: 100%;
+ }
+
+
+
+
+ .ItemTextPart {
+  padding: 40px;
+ }
+
+
+
+
+ .ItemTextPart .topsky {
+  font-size: 18px;
+  line-height: 21.6px;
+  font-family: "Roboto Slab", serif;
+  padding: 0px -5px;
+  transition: .6s;
+  color: #555555;
+  font-weight: 600
+ }
+
+
+
+
+ .ItemTextPart .topsky:hover {
+  color: #f8b864;
+ }
+
+
+
+
+ .ItemTextPart p {
+  font-size: 15.5px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: #777777;
+  line-height: 27px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+ }
+
+
+
+
+ .TextLineDown {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+ }
+
+
+
+
+ .TextLineDown .left p {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "open sans";
+  margin-top: 10px;
+  margin-bottom: 14px;
+ }
+
+
+
+
+ .TextLineDown .right p {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "open sans";
+  margin-top: 10px;
+  margin-bottom: 14px;
+ }
+
+
+
+ .ItemOnePart .UnderLine {
+  background: #f8b864;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+ }
+
+
+
+
+/* Sixth Header Part End */
+
+
+
+
+
+
+/* Interval Header Part Start */
+
+ #IntervalScene {
+  background: #77777721;
+  height: 1000px;
+  padding: 100px 0px;
+  margin-top: 100px;
+ }
+
+ .IntervalPartOne {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  }
+
+
+
+ .IntervalImage {
+  width: 48%;
+  position: relative;
+ }
+
+ .IntervalClimax i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 130px;
+  visibility: visible;
+  opacity: 2;
+ }
+
+ .IntervalImage img {
+  width: 100%;
+ }
+
+
+
+  .IntervalText {
+  width: 48%;
+  align-self: center;
+ }
+
+
+
+
+ .IntervalText h4 {
+  color: #555555;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: "Roboto Slab", serif;
+  line-height: 35px;
+  margin-bottom: 70px;
+ }
+
+
+
+
+ .IntervalText p {
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-right: 150px;
+  position: relative;
+  margin-bottom: 20px;
+ }
+
+
+
+
+ .IntervalText p::before {
+  position: absolute;
+  width: 90px;
+  height: 1px;
+  top: -35px;
+  left: -2px;
+  content: "";
+  background: #D99C4D;
+ }
+
+
+
+ .IntervalPartOne .glazed {
+  background: #f8b864;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+ }
+
+
+
+
+ .IntervalPartTwo {
+  display: flex;
+  justify-content: space-between;
+  }
+
+
+
+
+ .IntervalTextTwo {
+  width: 48%;
+  align-self: center;
+  text-align: right;
+ }
+
+
+
+
+  .IntervalTextTwo h3 {
+  color: #555555;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: "Roboto Slab", serif;
+  line-height: 35px;
+  margin-bottom: 116px;
+  margin-left: 296px;
+ }
+
+
+
+
+
+ .IntervalTextTwo p {
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative; 
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-top: -45px;
+  width: 495px;
+ }
+
+
+
+
+
+ .IntervalTextTwo p::before {
+  position: absolute;
+  width: 90px;
+  height: 1px;
+  top: -35px;
+  right: 8px;
+  content: "";
+  background: #D99C4D;
+ }
+
+
+
+
+ .IntervalPartTwo .sugary {
+  background: #f8b864;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+ }
+
+
+
+
+
+/* Interval Header Part End */
+
+
+
+
+
+ 
+
+
+ /* PlotTwister Header Part Start */
+
+
+
+
+
+  #PlotTwist{
+  height: 400px;
+  background: #D99C4D;
+  background: url(../images/1\ \(1\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  
+
+
+/* PlotTwister Header Part End */
+
+
+
+
+
+/* AntiClimax Header Part Start */
+
+ #ActionBattle {
+  padding: 100px 0px;
+  background: #7777771a;
+  }
+
+
+ .BlazingGunFire {
+  position: relative;
+ }
+
+
+
+ .GunFireText {
+  text-align: center;
+  font-size: 28px;
+  color: #555555;
+  width: 100%;
+ }
+
+
+ .GunFireText h2{
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+ }
+
+ .FireTextImages {
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+  margin-top: 20px;
+ }
+
+
+
+
+ .FireTextImages::before {
+  position: absolute;
+  width: 165px;
+  height: 2px;
+  top: 10px;
+  left: 450px;
+  content: "";
+  background: #D99C4D;
+ }
+
+
+
+
+ .FireTextImages::after {
+  position: absolute;
+  width: 165px;
+  height: 2px;
+  top: 10px;
+  right: 450px;
+  content: "";
+  background: #D99C4D;
+ }
+
+
+
+
+ .DynamiteBlast {
+  display: flex;
+  gap: 100px;
+  margin-top: 50px;
+ }
+
+
+
+  .AssaultRifle {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  }
+
+
+
+ .GunDriller {
+ width: 48%;
+ text-align: center;
+  }
+
+
+
+
+ .GunDriller i{
+  font-size: 30px;
+  color: #686868;
+ }
+
+
+
+
+ .GunDriller h3{
+ font-size: 20px;
+ font-family: "Roboto Slab", serif;
+ font-family: 400;
+ margin-bottom: 30px;
+ margin-top: 20px;  
+ color: #777777;
+ }
+
+
+
+
+ .GunDriller p{
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif; 
+  font-weight: 400;
+  color: #555555;
+  margin-left: -23px;
+  }
+
+
+
+
+  
+    
+ .MadsenMachineGun {
+  width: 48%;
+  }
+
+
+
+
+ .IntervalImage img {
+  width: 100%;
+  }
+
+
+
+
+  .IntervalText {
+  width: 48%;
+  align-self: center;
+  }
+
+
+
+
+  .IntervalText h4 {
+  color: #555555;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: "Roboto Slab", serif;
+  line-height: 35px;
+  margin-bottom: 70px;
+  }
+
+
+
+
+  .IntervalText p {
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-right: 150px;
+  position: relative;
+  margin-bottom: 20px;
+  }
+
+
+
+
+
+ .IntervalText p::before {
+  position: absolute;
+  width: 90px;
+  height: 1px;
+  top: -35px;
+  left: -2px;
+  content: "";
+  background: #D99C4D;
+  }
+
+
+
+
+  .IntervalPartOne .glazed {
+  background: #f8b864;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  }
+
+
+
+
+
+/* AntiClimax Header Part End */
+
+
+
+
+
+
+
+
+
+
+/* MultiClimax Part Start */
+
+
+
+  #MultiClimaxPart {
+  height: 20px;
+  padding: 120px 0px;
+  }
+
+
+
+
+  .ClimaxPartOne {
+  position: relative;
+  }
+
+
+
+
+ .ClimaxPart {
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  color: #555555;
+  width: 100%;
+  }
+
+
+  .ClimaxPart h2{
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  }
+  
+
+ .ClimaxImages {
+  text-align: center;
+  position: relative;
+  margin-bottom: 25px;
+  margin-top: 20px;
+ }
+
+
+
+
+
+ .ClimaxImages::before {
+  position: absolute;
+  width: 165px;
+  height: 2px;
+  top: 10px;
+  left: 430px;
+  content: "";
+  background: #DDDDDD;
+ }
+
+
+
+
+ .ClimaxImages::after {
+  position: absolute;
+  width: 165px;
+  height: 2px;
+  top: 10px;
+  right: 430px;
+  content: "";
+  background: #DDDDDD;
+  }
+
+
+
+
+
+
+/* MultiClimax Part End */
+
+
+
+
+
+
+
+/* Final Header Part Start */
+
+
+
+
+  #FinalPart {
+  padding: 90px 0px;
+  background: #fff;
+  }
+
+
+  .FinalItemPart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  }
+
+
+
+
+
+
+  .FinalItem {
+  width: 30%;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.7);
+  }
+
+
+
+
+
+ .FinalItemImg img {
+  width: 100%;
+  }
+
+
+
+
+ .FinalItemText {
+  padding: 50px;
+ }
+
+
+
+
+
+
+  .FinalItemText a {
+  margin-top: 34px;
+  margin-bottom: 2px;
+  font-size: 18px;
+  line-height: 21.6px;
+  font-family: "Roboto Slab", serif;
+  padding: 0px -5px;
+  transition: .6s;
+  color: #555555;
+  font-weight: 600
+  }
+
+
+
+
+ .FinalItemText a:hover {
+  color: #f8b864;
+ }
+
+
+
+
+  .FinalItemText p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto Slab", serif;
+   color: #777777;
+  line-height: 25px;
+  margin-bottom: -4px;
+ }
+
+
+
+
+
+ .FinalTextLine a {
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 21.6px;
+  font-family: "Open Sans", sans-serif;
+  padding: 0px 50px;
+  transition: .6s;
+  color: #555555;
+  font-weight: 600
+ }
+
+
+
+
+ .FinalTextLine i:hover {
+  color: #f8b864;
+ }
+
+
+
+
+
+ .FinalTextLine a:hover {
+  color: #f8b864;
+ }
+
+
+
+
+ .FinalTextLine i{
+ margin: 0px -35px;
+  transition: .6s;
+ } 
+    
+
+
+
+ .FinalItemImg{
+  position: relative;
+  }
+  
+
+
+
+ .FinalWar{
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  content: "";
+  left: 0; top: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: .6s;
+ }
+
+
+
+
+ .FinalWar i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #fff;
+ }
+   
+
+
+
+ .FinalItemImg:hover .FinalWar{
+  visibility: visible;
+  opacity: 3;
+ }
+
+
+
+
+/* Final Header Part End */
+
+
+
+
+
+
+
+/* PostCredit Header Part Start */
+
+
+ #CreditCameo {
+  height: 500px;
+  background: #3E3E3E;
+  margin-top: 30px;
+ }
+
+
+
+
+ .CreditScene {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+ }
+
+
+
+
+ .SceneMenu {
+  width: 25%;
+  padding: 100px 0px;
+ }
+
+
+
+
+ .SceneMenu h3 {
+  color: #ffff;
+  font-family: "open sans";
+  font-size: 15px;
+  line-height: 21.6px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+ }
+
+
+
+
+
+ .SceneMenu p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #aaaaaa;
+  margin-bottom: 25px;
+  margin-right: 74px;
+ }
+
+
+
+
+ .ReviewLine a i {
+  color: #aaaaaa;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  line-height: 26px;
+  transition: .6s;
+  }
+
+
+
+
+ .ReviewLine a i:hover {
+  color: #f8b864;
+ }
+
+
+
+
+ .CriticsLine a {
+   display: inline-block; 
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color: #686868;
+  margin: 0px 80px;
+  transition: .6s;
+  margin-left: 20px;
+  
+  }
+
+
+
+
+ .CriticsLine a:hover {
+  color: #fff;
+ }
+
+
+
+
+
+ .AudienceReview a {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color: #686868;
+  margin: 0px 80px;
+  transition: .6s;
+  margin-left: 20px;
+ }
+
+
+
+
+ .AudienceReview a:hover {
+  color: #fff;
+ }
+
+
+
+
+ .TheEndMenu h2 {
+  color: #ffff;
+  font-family: "open sans";
+  font-size: 18px;
+  line-height: 21.6px;
+  padding-bottom: 30px;
+ }
+
+
+
+
+ .RatingReview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+ }
+
+
+
+
+
+ .RatingStarImg {
+  width: 28%;
+  position: relative;
+ }
+
+
+
+
+
+  .RatingStarImg:hover .SignatureStyle {
+  visibility: visible;
+  opacity: 1;
+ }
+
+
+
+
+  .RatingStarImg img {
+  width: 100%;
+  height: 60%;
+  }
+
+
+
+
+ .RatingStarImg .StyleIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #fff;
+  }
+
+
+
+
+ .SignatureStyle {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  content: "";
+  height: 60%;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: .6s;
+  }
+
+
+
+    .TheEndMenu {
+      margin: 50px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    
+
+
+
+
+
+
+
+
+
+
+/* PostCredit Header Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Top Header Part Start */
+
+
+
+      #LastWay{
+   height: 150px;
+   background: #3E3E3E;
+  }
+  
+  .LastWar{
+  
+    height: 1px;
+    width: 1335px;
+   background: white;
+  }
+
+
+    
+  .OneLastTime h3{
+   text-align: center;
+   color: #fff;
+   font-size: 20px;
+   line-height: 50px;
+   font-family:"Open Sans", sans-serif; 
+   font-weight: 400;
+  
+  }
+
+
+  .OneLastTime h3 a{
+    color: #fff;
+  }
+
+
+  .OneLastTime h3 a:hover{
+    color: #f8b864;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Top Header Part End */
+/* Top Header Part Start */
+/* Top Header Part End */
